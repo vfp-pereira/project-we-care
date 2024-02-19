@@ -89,29 +89,43 @@ p{
 
 }
 
-@media screen and (max-width: 400px) and (orientation: portrait) {
+@media screen and (max-width: 450px) and (orientation: portrait) {
         
     .image{
-        width: 354px;
-        height: 317px;
+        width: 173px;
+        height: 166px;
         position: relative;
-        margin-top: 149px;
-        margin-left: 14px;
+        top: 10vh;
+        right: 26vw;
     }
     
     h1{
         width: 263px;
         height: 52px;
-        font-size: 50px;
+        font-size: 35px;
         line-height: 61px;
+        position: relative;
+        top: 90px;
+        right: 54px;
         
     }
 
     h2{
-        font-size: 30px;
+        font-size: 20px;
         line-height: 36px;
-        margin-top: 7px;
         margin-bottom: 17px;
+        position: relative;
+        top: 80px;
+        right: 51px;
+    }
+
+    .button-explore{
+        position: relative;
+        top: 80px;
+        right: 53px;
+        width: 148px;
+        height: 48px;
+        font-size: 20px;
     }
 
     header{
